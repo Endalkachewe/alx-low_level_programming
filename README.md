@@ -1,1 +1,1 @@
-0x00. C - Hello, World read me file
+This is 0x02. C - Functions, nested loops project
