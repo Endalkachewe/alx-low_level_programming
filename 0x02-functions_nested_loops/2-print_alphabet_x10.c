@@ -3,17 +3,16 @@
  * print_alphabet_x10 - make alphabet _x10
  * Return: void
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10()
 {
-	char;
-
 	int i;
+	int j;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i <= 10; i++)
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		for (j = 97; j <= 122; j++)
 		{
-			_putchar(c);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
