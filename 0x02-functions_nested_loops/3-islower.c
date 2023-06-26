@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * 3-islower.c - shows 1 if input is a
- * Return: 1for lower cases
+ * _islower - shows 1 if input is a
+ * @c: The character in ASCI code
+ * Return: 1 for lower case character 0 for the rest
  */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
